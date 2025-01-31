@@ -1,0 +1,107 @@
+﻿@model List<Hawassa.Models.AddMenu>
+
+@{
+    ViewData["Title"] = "Home Page";
+    string searchQuery = ViewData["SearchQuery"] as string ?? string.Empty;
+}
+
+<div class="container mb-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="fancy-heading mb-0">Food Menu</h2>
+        <form method="get" asp-controller="Home" asp-action="Index" class="d-flex">
+            <input type="text"
+                   name="searchQuery"
+                   class="form-control me-2"
+                   placeholder="Search by Name of Cafe..."
+                   value="@searchQuery"
+                   style="max-width: 300px;" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        @if (Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm rounded">
+                        <img src="@Url.Content("~/Images/" + item.ImageFileName)" class="card-img-top" alt="Image of @item.Name" style="height: 200px; object-fit: cover; border-bottom: 2px solid #f8f9fa;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">
+                                @if (item.Location.Contains("Restaurant"))
+                                {
+                                    @:📍 @item.Location
+                                }
+                                else if (item.Location.Contains("Home"))
+                                {
+                                    @:🏠 @item.Location
+                                }
+                                else
+                                {
+                                    @:📍 @item.Location
+                                }
+                            </p>
+                            <p class="card-text text-muted" style="font-size: 14px; line-height: 1.5;">
+                                @item.Description
+                            </p>
+                            <p class="card-text font-weight-bold">Price: @item.Price ETB</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center text-muted">No items found.</p>
+        }
+    </div>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    .fancy-heading {
+
+        font-size: 2rem;
+        font-weight: 700;
+        color: #007bff; 
+        margin: 0;
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    .card-text {
+        margin-bottom: 0.75rem;
+    }
+
+    .text-muted {
+        color: #6c757d;
+    }
+
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+</style>

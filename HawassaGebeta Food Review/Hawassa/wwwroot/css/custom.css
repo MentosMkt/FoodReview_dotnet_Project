@@ -1,0 +1,39 @@
+﻿
+body {
+    background-color: #f0f0f0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: dimgrey !important; 
+}
+
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+    
+.btn-primary.btn-sm {
+        font-size: 14px;
+    }
+
+
+.navbar-nav .nav-link:hover {
+    color: dodgerblue !important; 
+}
+.addmenu {
+    margin-right: 200px;
+}
+.single-word-link {
+    white-space: nowrap;
+}

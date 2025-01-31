@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\controllers\\addmenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\controllers\\addmenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|c:\\users\\hp\\downloads\\asp.net-projects-main\\asp.net-projects-main\\hawassa\\hawassa\\models\\addmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A04930-45BB-42F2-9C30-E39C8E603C35}|Hawassa\\Hawassa.csproj|solutionrelative:hawassa\\models\\addmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Hawassa\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T07:02:53.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Hawassa\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Hawassa\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T06:32:09.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hawassa\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Hawassa\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T06:32:04.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\appsettings.json",
+              "RelativeDocumentMoniker": "Hawassa\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\appsettings.json",
+              "RelativeToolTip": "Hawassa\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-31T06:05:14.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Program.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Program.cs*",
+              "RelativeToolTip": "Hawassa\\Program.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T06:00:04.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Hawassa\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:47.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Hawassa\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:28.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddMenusController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\AddMenusController.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Controllers\\AddMenusController.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\AddMenusController.cs",
+              "RelativeToolTip": "Hawassa\\Controllers\\AddMenusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:14.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Hawassa\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:11.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Hawassa\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddMenu.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Models\\AddMenu.cs",
+              "RelativeDocumentMoniker": "Hawassa\\Models\\AddMenu.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\ASP.net-projects-main\\ASP.net-projects-main\\Hawassa\\Hawassa\\Models\\AddMenu.cs",
+              "RelativeToolTip": "Hawassa\\Models\\AddMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:50:57.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

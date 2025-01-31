@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> signInManager
+@inject UserManager<AppUser> userManager
+
+<div class="d-flex justify-content-between ">
+    <!-- Left-side Navbar items -->
+    <ul class="navbar-nav">
+        @if (!signInManager.IsSignedIn(User))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-area="" asp-action="Register">Register</a>
+            </li>
+        }
+    </ul>
+
+    <!-- Centered Navbar item (Added List) -->
+    @if (signInManager.IsSignedIn(User))
+    {
+        <div class="d-flex justify-content-center w-100">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class=" single-word-link addmenu nav-link" asp-area="" asp-controller="AddMenus" asp-action="Index">Check Menu</a>
+                </li>
+            </ul>
+        </div>
+    }
+
+    <!-- Right-side Navbar items -->
+    <ul class="navbar-nav">
+        @if (signInManager.IsSignedIn(User))
+        {
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Welcome
+                    @{
+                        var user = await userManager.GetUserAsync(User);
+                        var name = user?.Name ?? "Unknown Name";
+                        @name
+                    }
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" asp-action="Logout" asp-controller="Account">Logout</a>
+                    </li>
+                </ul>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]">Login</a>
+            </li>
+        }
+    </ul>
+</div>

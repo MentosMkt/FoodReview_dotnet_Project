@@ -1,0 +1,83 @@
+﻿
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+    .header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+
+.partners-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+    .partners-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.partner-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .partner-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .partner-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+.card-content {
+    padding: 15px;
+}
+
+    .card-content h3 {
+        font-size: 1.5rem;
+        margin: 0;
+        color: dodgerblue;
+    }
+
+    .card-content p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #555;
+    }

@@ -1,0 +1,48 @@
+﻿@model List<AddMenu>
+@{
+}
+<h2 class="text-center mb-5">List of added menu </h2>
+
+<div class=" row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp controller="AddMenu" asp-action="Create">New Menu</a>
+    </div>
+    <div class="col">
+    </div>
+</div>
+<table class="table ">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Created At</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    @foreach (var AddMenu in Model)
+    {
+        <tbody>
+
+            <tr>
+                <td>@AddMenu.Id</td>
+                <td>@AddMenu.Name</td>
+                <td>@AddMenu.Location</td>
+                <td>@AddMenu.Description</td>
+                <td>@(AddMenu.Price) ETB</td>
+                <td><img src="./Images/@AddMenu.ImageFileName" width="100" /></td>
+                <td>@AddMenu.CreatedAt.ToString("MM/dd/yyyy")</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="AddMenus" asp-action="Edit"
+                       asp-route-id="@AddMenu.Id">Edit</a>
+                    <a class="btn btn-primary btn-sm" asp-controller="AddMenus" asp-action="Delete"
+                       asp-route-id="@AddMenu.Id" onclick="return confirm('Are you Sure ?')">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>
