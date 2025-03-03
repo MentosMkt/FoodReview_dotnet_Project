@@ -1,0 +1,101 @@
+﻿@using Hawassa.ViewModels;
+@model LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Hawassa Gebeta</title>
+    <link />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css"> 
+</head>
+<body>
+
+    <div class="row d-flex align-items-stretch justify-content" style="height: 70vh;">
+        <!-- Left Side: Login Form -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center h-100">
+            <div class="card p-4 border-0" style="width: 100%; height: 100%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h3 class="text-center text-primary mb-4">Login</h3>
+                <form asp-action="Login" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <!-- Username -->
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <input asp-for="Username" class="form-control" placeholder="Username" />
+                            <label asp-for="Username">Username</label>
+                        </div>
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                            <label asp-for="Password">Password</label>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <!-- Remember Me -->
+                    <div class="form-check mb-3">
+                        <input asp-for="RememberMe" class="form-check-input" id="rememberMe" />
+                        <label class="form-check-label" for="rememberMe">@Html.DisplayNameFor(a => a.RememberMe)</label>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button type="submit" class="btn btn-primary" style="width: 400px;">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Right Side: Organization Description -->
+        <div class="col-md-8 d-flex align-items-center justify-content-center h-100">
+            <div class="card p-4 border-0" style="width: 100%; height: 100%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h2 class="text-center" style="color: dodgerblue;">Welcome to Hawassa Gebeta</h2>
+                <p class="text-muted">
+                    Hawassa Gebeta connects you to the best dining and hospitality experiences in Hawassa.
+                    We review and promote hotels, cafes, and restaurants, helping businesses grow while guiding locals and visitors to top spots.
+                    From hidden gems to popular destinations, we celebrate Hawassa’s vibrant food culture.
+                    Follow us for trusted reviews, events, and exclusive deals!
+                </p>
+                <p class="text-muted">
+                    For any questions or assistance, feel free to contact our support team. Thank you for choosing Hawassa Gebeta!
+                </p>
+
+                <!-- Social Media Links -->
+                <div class="text-center mt-4">
+                    <h5>Follow us on Social Media</h5>
+                    <a href="https://facebook.com" target="_blank" class="text-decoration-none me-3">
+                        <img src="~/Images/facebook.png" style=" width: 50px; height:50px; " />
+                        <i class="fab fa-facebook fa-2x text-primary"></i>
+                    </a>
+
+                    <a href="https://instagram.com" target="_blank" class="text-decoration-none me-3">
+                        <img src="~/Images/instagram.png" style=" width: 50px;  height:50px; "  />
+                        <i class="fab fa-instagram fa-2x text-danger"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

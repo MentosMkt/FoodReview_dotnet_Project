@@ -1,0 +1,92 @@
+﻿@using Hawassa.ViewModels;
+@model RegisterVM
+
+@{
+    ViewData["Title"] = "Register Admin";
+}
+
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div class="alert alert-success text-center mt-3">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="row d-flex align-items-stretch justify-content">
+
+    <div class="col-md-4 d-flex align-items-center justify-content-center h-100">
+        <div class="card p-4 border-0 bg-white shadow-lg" style="width: 100%; height: 100%;">
+            <h3 class="text-center text-primary mb-4">Create Admin Account</h3>
+            <form asp-action="Register" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <input asp-for="Name" class="form-control" placeholder="Name" />
+                        <label asp-for="Name">Name</label>
+                    </div>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <input asp-for="Email" type="email" class="form-control" placeholder="Email" />
+                        <label asp-for="Email">Email</label>
+                    </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                        <label asp-for="Password">Password</label>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" />
+                        <label asp-for="ConfirmPassword">Confirm Password</label>
+                    </div>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <textarea asp-for="Address" class="form-control" rows="2" placeholder="Address"></textarea>
+                        <label asp-for="Address">Address</label>
+                    </div>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button type="submit" class="btn btn-primary" style="width: 400px;">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-8 d-flex align-items-center justify-content-center">
+        <div class="card p-4 border-0 bg-light shadow-lg text-center" style="width: 100%; height: 100%;">
+            <h2 class="text-primary">Admin Account Management</h2>
+            <ul class="list-group list-group-flush text-start mt-4">
+                <li class="list-group-item bg-light">
+                    <i class="text-primary me-2 fas fa-check-circle"></i> Ensure unique and valid email addresses for each admin.
+                </li>
+                <li class="list-group-item bg-light">
+                    <i class="text-primary me-2 fas fa-check-circle"></i> Set strong passwords with a combination of letters, numbers, and symbols.
+                </li>
+                <li class="list-group-item bg-light">
+                    <i class="text-primary me-2 fas fa-check-circle"></i> Keep records of admin accounts for better role management.
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
